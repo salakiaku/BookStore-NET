@@ -4,7 +4,6 @@ namespace BookStore.API.Models.Author
 {
     public class AuthorCreateDTO
     {
-        public int Id {  get; set; }
         [Required(ErrorMessage ="Campo obrigatório")]
         [StringLength(50)]
         public string FirstName { get; set; }
